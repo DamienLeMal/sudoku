@@ -252,7 +252,7 @@ $("#theme").click(function(){
       fond_grille = "#F3EAC7";
       main_color = "#2B8993";
       text = "#ADE0DB";
-      digit = "#ADE0DB";
+      digit = "#2B8993";
       crayon = "#ADE0DB";
       erreur = "#BE302D";
       select = "#F3E7B6";

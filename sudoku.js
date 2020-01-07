@@ -111,7 +111,7 @@ $("#mode").click(function(){
     }
 })
 $("#theme").click(function(){
-  if (theme != 8){
+  if (theme != 9){
   theme = theme + 1;
   }else{
     theme = 0;
@@ -244,6 +244,19 @@ $("#theme").click(function(){
       erreur = "#B6174B";
       select = "#EEFFAD";
       temps = "#F3FFC6";
+      themeApply(fond,fond_grille,main_color,text,digit,crayon,erreur,select,temps);
+      break;
+    case 9 :
+      $("#theme").html("Git");
+      fond = "#324346";
+      fond_grille = "#F3EAC7";
+      main_color = "#2B8993";
+      text = "#ADE0DB";
+      digit = "#ADE0DB";
+      crayon = "#ADE0DB";
+      erreur = "#BE302D";
+      select = "#F3E7B6";
+      temps = "#2B8993";
       themeApply(fond,fond_grille,main_color,text,digit,crayon,erreur,select,temps);
       break;
   }

@@ -95,9 +95,10 @@ $("#erase").click(function(){
 })
 //Generer button
 $("#generer").click(function(){
-    generate();
-  }
-)
+  erase();
+  erasePen();
+  generate();
+})
 $("#mode").click(function(){
   if (modeCrayon == 1){
       modeCrayon = 0;

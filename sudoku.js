@@ -130,6 +130,7 @@ $("#theme").click(function(){
       select = "gainsboro";
       temps = "black";
       break;
+      themeApply(fond,fond_grille,main_color,text,digit,crayon,erreur,select,temps);
     case 2 :
       $("#theme").html("Lemon");
       fond = "#F8ECB1";

@@ -1,0 +1,126 @@
+/*SUDOKU*/
+@font-face {
+  font-family: franklin;
+  src: url("font/pablo-impallari_libre-franklin/LibreFranklinThin-G79a.ttf"); }
+*{
+  font-family: "franklin", "sans-serif";
+}
+#plateau{
+  position: absolute;
+  margin-top:100px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 402px;
+  height: 402px;
+
+  border-style: solid;
+  border-width: 10px
+
+}
+
+.division{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 126px;
+  height: 126px;
+  border-style: solid;
+  border-width: 4px;
+}
+
+.subdivision{
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  display:inline-grid;
+  grid-template-columns: repeat(3,auto);
+  grid-column-gap: 4.5px;
+  grid-row-gap:0.5px;
+}
+.subdHover{
+  background-color: gainsboro;
+}
+#chrono{
+  position:absolute;
+  margin:5px;
+  font-size:2em;
+}
+.menu{
+  margin-top:125px;
+  position:absolute;
+  margin-left: 650px;
+}
+#pad{
+  display:inline-grid;
+  grid-template-columns: repeat(3,auto);
+}
+.numPad{
+  margin:2px;
+  text-align: center;
+  line-height:33px;
+  height:36px;
+  width:36px;
+  background-color:white;
+  color:black;
+  border-radius: 60px;
+  border-style: solid;
+  border-color:black;
+  font-size:2em;
+  font-weight: bold;
+}
+.bouton{
+  margin-top:2px;
+  margin-bottom:5px;
+  text-align: center;
+  height:30px;
+  width:132px;
+  background-color:black;
+  color:white;
+  border-radius: 60px;
+  font-weight: bold;
+}
+
+#noPuzzle{
+  text-align: center;
+}
+
+/* classe associable par un futur dossier .js pour une annotation*/
+.nombre {
+  width:40px;
+  height:40px;
+  transform:translate(0px,-10%);
+  position:absolute;
+  display:block;
+  font-size: 2em;
+  font-weight: bold;
+}
+.crayon {
+  display: block;
+  color: gray;
+  font-size:0.5em;
+  font-weight: bold;
+}
+
+/* classe associable par un futur dossier .js pour un chiffre faux*/
+.erreur {
+  color: red;
+}
+
+.select{
+  background-color: gainsboro;
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+}
+
+.puzzle{
+  background-color: gainsboro;
+}
+
+/*text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;

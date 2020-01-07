@@ -261,7 +261,6 @@ $("#theme").click(function(){
       break;
   }
 })
-
 //Puzzle
 $("#suivant").click(function(){
   if (challenge == 0){

@@ -1,4 +1,4 @@
 # sudoku
-![alt text](https://github.com/DamienLeMal/ImageUpload/blob/main/Sudoku/1.PNG)
-![alt text](https://github.com/DamienLeMal/ImageUpload/blob/main/Sudoku/2.PNG)
-![alt text](https://github.com/DamienLeMal/ImageUpload/blob/main/Sudoku/3.PNG)
+![screenshot](1.PNG)
+![[screenshot]](2.PNG)
+![[screenshot]](3.PNG)
